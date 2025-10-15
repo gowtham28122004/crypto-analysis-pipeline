@@ -58,16 +58,7 @@ The entire project can be run from a single, unified Python script or Jupyter No
     ```bash
     pip install -r requirements.txt
     ```
-
-### Execution
-
-1.  **Configure (for email alerts):** If running in Google Colab, create a secret named `GMAIL_APP_PASSWORD` and store your 16-digit App Password there. Also, update the `SENDER_EMAIL` and `RECEIVER_EMAIL` variables in the script.
-2.  **Run the Script:** Execute the main Python script or run the cells of the Jupyter Notebook in order.
-    ```bash
-    python complete_crypto_pipeline.py
-    ```
-3.  The script will perform the full end-to-end process: data fetching, database storage, portfolio analysis, risk checking, and predictive modeling. It will display plots on the screen and generate the final database and CSV files in the project directory.
-
+    
 ## 📂 Final Output Files
 
 -   **`crypto_data.db`**: The primary SQLite database containing all raw price data and all calculated analysis and risk assessment results.
