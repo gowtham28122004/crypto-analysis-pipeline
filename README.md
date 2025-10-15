@@ -41,10 +41,6 @@ This project demonstrates a full data science and engineering lifecycle, includi
 -   **Data Storage:** SQLite
 -   **Development Environment:** Google Colab / Jupyter Notebook
 
-## 🏃 How to Run the Project
-
-The entire project can be run from a single, unified Python script or Jupyter Notebook.
-
 ### Prerequisites
 
 1.  **Python 3.8+**
@@ -54,10 +50,8 @@ The entire project can be run from a single, unified Python script or Jupyter No
 
 1.  Clone this repository or download the project files.
 2.  Open a terminal in the project directory.
-3.  Install the required Python libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
+3.  Install the required Python libraries.
+    
     
 ## 📂 Final Output Files
 
